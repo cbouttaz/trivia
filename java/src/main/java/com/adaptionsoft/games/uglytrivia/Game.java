@@ -169,11 +169,12 @@ public class Game {
 
     private StringBuilder gameResume = new StringBuilder();
 
-    public StringBuilder getGameResume() {
-        return gameResume;
+    public String getGameResume() {
+        return gameResume.toString();
     }
 
     protected void print(Object input) {
-        gameResume.append(input /*+ "\n"*/);
-    }
+        gameResume.append(input).append("\n");
+		//System.out.println(input);
+	}
 }

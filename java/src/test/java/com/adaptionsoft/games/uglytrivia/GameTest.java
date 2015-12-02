@@ -1,6 +1,6 @@
-package com.adaptionsoft.games.trivia;
+package com.adaptionsoft.games.uglytrivia;
 
-import com.adaptionsoft.games.trivia.runner.GameRunner;
+import com.adaptionsoft.games.uglytrivia.GameRunner;
 import org.junit.Test;
 
 import java.util.Random;
@@ -8,14 +8,7 @@ import java.util.Random;
 import static org.fest.assertions.api.Assertions.assertThat;
 import static org.junit.Assert.assertTrue;
 
-public class SomeTest {
-
-	@Test
-	public void true_is_true() throws Exception {
-		assertTrue(true);
-	}
-
-
+public class GameTest {
 
 	@Test
 	public void should_generate_same_game_results() throws Exception {
